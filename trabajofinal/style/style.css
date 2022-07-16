@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.body{
+    background: white;
+}
+.p{
+    margin-top: 15px;
+}
+
+ hr{
+    background-color: orange;
+    height: 20px;
+    margin-bottom: -1px;
+    margin-top: -4px;
+
+
+}
+
+#header{
+    margin: 0px;
+    width: 500px;
+    position: fixed;
+    z-index: 2;
+    text-align: right;
+}
+.ul{
+    list-style: none;
+}
+.nav li a{
+    background-color: rgb(11, 10, 12);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: rgb(220, 142, 40);
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+.imagen{
+  
+    z-index: -1;
+    position: relative;
+    margin: 0px;
+}
+.imagen img{
+    height: 400px;
+width: 100%;
+
+position: relative;
+
+}
+
+.texto{
+    z-index: 1;
+    position: relative;
+    margin: 50px 40px 0px 40px;
+    text-align: justify;
+}
+.text-center{
+    margin: 10% 35% 0% 35%;
+}
+
+/* estilos de el formulario */
+
+.container{
+    text-align: center;
+    margin: 0% 10% 0% 10%;
+}
+.title{
+  text-align: center;
+  margin: 0% 45% 0% 10%;
+}
